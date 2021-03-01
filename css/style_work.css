@@ -1,0 +1,60 @@
+	html{
+	background: url(bg.jpg);
+	background-attachment: fixed;
+	font-family: 'Montserrat', sans-serif;
+	}
+	body{
+		
+		padding-left: 15px;
+
+	}
+	code{
+		font-size: 15px;
+		
+	}
+	.title_code{
+		font-size: 30px;
+		color: white;
+		margin-left: 15px;
+	}
+	.text_code{
+		color: white;
+		width: 500px;
+		margin-top: 5px;
+		margin-left: 100px;
+		padding: 20px;
+		border: solid;
+		border-color: orange;
+		border-style: double;
+		border-width: 2px;
+		border-radius: 15px;
+		
+	}
+	.container{
+		width: 100%;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding-left: 1px;
+		padding-right: 1px;
+	}
+
+	a{	
+
+		text-decoration: none;
+		color: orange;
+		font-size: 20px;
+		border: 3px solid;
+		border-radius: 20px;
+		border-color: orange;
+		padding: 4px 14px;
+	}
+	a:hover{
+		color: white;
+		background-color: orange; 
+	}
+	
+	.navigation{
+
+		margin: 0px 30px;
+
+	}

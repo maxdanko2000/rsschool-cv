@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style_work.css">
+  <meta charset="utf-8">
+	<title>
+		Python code
+	</title>
+</head>
+<body>
+<div class="navigation"><a href="index.html">BACK</a></div>
+<div class="container">
+	<div class="title_code">Piece of Python code: <br></div>	
+  		<div class="text_code">
+  			<code>
+			 e = 2.7<br>
+    		 x, y = symbols("x y")<br>
+
+    		 fx = (2 * x ** 1 / 2) - (e ** (x / 2)) + 2<br>
+    		 flags = -7<br>
+    		 rez = solve(fx, x, flags)<br>
+			
+    		 print('x = ' + str(rez))<br>
+   			 print()<br>
+   			  # 2<br>
+   			 			print("zadanie 1 \n2")<br>
+
+   			 x = np.arange(0, 4, 0.01)<br>
+   			 y = (2 * x ** 1 / 2) - (e ** (x / 2)) + 2<br>
+
+   			  fig = plt.subplots()<br>
+
+   			 plt.plot(x, y)<br>
+
+   			 plt.show()<br>
+    		 print()<br>
+    		 # 3<br>
+    		 print("zadanie 1 \n3")<br>
+    		 a = float(input("Введите а: "))<br>
+    		 b = float(input("Введите b: "))<br>
+    		 print()<br>
+			 <br>
+    		 def f(c):<br>
+    		   return (2 * c ** 1 / 2) - (e ** (c / 2)) + 2<br>
+    		 def Mid(f, a, b, acc=10 ** -7):<br>
+    		  global c<br>
+    		 while abs(b - a) > acc:<br>
+        		c = (a + b) / 2.0<br>
+        		fc = f(c)<br>
+        		fa = f(a)<br>
+        		fb = f(b)<br>
+        		if (fc * fa  &lt;  0) or (fc * fb  &lt;  0):<br>
+            		a = c<br>
+        		else:<br>
+            		b = c<br>
+    		return c<br>
+    		</code>
+    <br>
+    <code>
+     c = Mid(f, a, b)<br>
+    print("Корень: " + str(c))<br>
+    print("Значение функции f(x): " + str(f(c)))<br>
+	<br>
+      print()<br>
+    # zadanie 2<br>
+     print("zadanie 2 \n1")<br>
+     <br>
+     # 1<br>
+     s = np.arange(-2, 0, 0.01)
+    func = 2 / (((2 * s ** 2) + 4 * s + 6) ** 1 / 2)<br>
+    fig2 = plt.subplots()<br>
+    plt.plot(s, func)<br>
+    plt.show()<br>
+    print()<br>
+   </code> 
+  </div>
+</div>
+</body>
+</html>
