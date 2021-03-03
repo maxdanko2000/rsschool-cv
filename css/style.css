@@ -1,0 +1,150 @@
+html {
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  background-color: #ffd700;
+  justify-content: center;
+  height: 120px;
+  width: 1000px;
+}
+
+.header_inner {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+}
+
+.user_avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.img_avatar {
+  border-radius: 500px;
+  border: 0px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.about {
+  display: flex;
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.user_content {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.user_name {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.user_prof {
+  font-style: italic;
+}
+
+.user_info {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_photo {
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img_user {
+  width: 400px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: black;
+  margin-right: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 6px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+.nav_link:hover {
+  background-color: #333;
+  color: azure;
+  border: 0 solid black;
+  display: flex;
+}
+
+.phone_number {
+  padding: 10px;
+  margin-left: 30px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.boder_inner {
+  justify-content: center;
+  display: flex;
+  background-color: #e6e6fa;
+  margin: 0 auto;
+  height: 600px;
+  width: 1000px;
+}
+
+.text_discription {
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.footer_inner {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  background-color: #c0c0c0;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.create_year {
+  margin-right: 100px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.logo {
+  display: flex;
+}
+
+.img_logo {
+  width: 60px;
+  height: 30px;
+}
