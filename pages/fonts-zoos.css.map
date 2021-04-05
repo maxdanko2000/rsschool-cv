@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,mBAAI;AAIZ,AAAA,WAAW,CAAC;EACV,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EARO,OAAO;CASpB",
+    "sources": [
+        "fonts-zoos.scss"
+    ],
+    "names": [],
+    "file": "fonts-zoos.css"
+}
