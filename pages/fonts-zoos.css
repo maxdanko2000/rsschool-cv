@@ -1,0 +1,10 @@
+@import url("./fonts.scss");
+.roboto-500 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+}
+/*# sourceMappingURL=fonts-zoos.css.map */
