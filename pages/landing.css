@@ -887,12 +887,80 @@ html {
           justify-content: space-between;
 }
 
+.rsschool-logotype {
+  z-index: 1;
+}
+
 .rsschool {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 141px;
   height: 50px;
+  z-index: 1;
+}
+
+.map-tooltip-rsschool {
+  position: relative;
+  top: 113%;
+}
+
+.tooltip-rsschool {
+  position: relative;
+  top: 412%;
+}
+
+.rsschool-logotype .tooltip-rsschool {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.rsschool-logotype .map-tooltip-rsschool {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.rsschool-logotype:hover .tooltip-rsschool {
+  visibility: visible;
+  opacity: 1;
+}
+
+.rsschool-logotype:hover .map-tooltip-rsschool {
+  visibility: visible;
+  opacity: 1;
+}
+
+.rsschool-logotype:not(hover) .tooltip-rsschool {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.rsschool-logotype:not(hover) .map-tooltip-rsschool {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.yem-digital-logotype {
   z-index: 1;
 }
 
@@ -903,6 +971,66 @@ html {
   z-index: 1;
   width: 97px;
   height: 50px;
+}
+
+.yem-digital-logotype .tooltip-yem-digital {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.yem-digital-logotype .map-tooltip-yem-digital {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.yem-digital-logotype:hover .tooltip-yem-digital {
+  visibility: visible;
+  opacity: 1;
+}
+
+.yem-digital-logotype:hover .map-tooltip-yem-digital {
+  visibility: visible;
+  opacity: 1;
+}
+
+.yem-digital-logotype:not(hover) .tooltip-yem-digital {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.yem-digital-logotype:not(hover) .map-tooltip-yem-digital {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.map-tooltip-yem-digital {
+  position: relative;
+  top: 114%;
+}
+
+.tooltip-yem-digital {
+  position: relative;
+  top: 413%;
 }
 
 .copyright {
@@ -937,5 +1065,36 @@ html {
 .nav-list-item-icon:not(hover) {
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.map-footer-back {
+  position: absolute;
+  top: 955px;
+  left: 12px;
+  z-index: 0;
+}
+
+.map-footer-wrapper {
+  padding: 80px 300px 20px 380px;
+}
+
+.map-footer-nav-list1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  width: 48px;
+  height: 57px;
+  padding-left: 38px;
+}
+
+.map-nav-list-soc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  width: 190px;
+  height: 40px;
+  padding-right: 80px;
 }
 /*# sourceMappingURL=landing.css.map */
