@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-@import url(//db.onlinewebfonts.com/c/151212d9a9d1e632aa020562ae4ea050?family=SceneW01-Black);
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: SceneW01-Black;
+  src: url(/assets/fonts/SceneW01.ttf);
+}
+
 .li-items-fonts {
   font-family: Roboto;
   font-style: normal;
