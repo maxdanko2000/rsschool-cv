@@ -3,7 +3,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Map</title>
     <link rel="stylesheet" type="text/css" href="./map.css" />
-    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -12,16 +12,25 @@
           <header class="header">
             <div class="logo">
               <a href="./landing.html">
-                <img class="logotype" src="../assets/icons/logo.png" alt="logo" />
+                <img class="logo" src="../assets/icons/logo.png" alt="logo" />
               </a>
             </div>
             <nav class="nav">
               <ul class="nav-list">
-                <li class="nav-item"><a href="">About</a></li>
-                <li class="nav-item nav-list-item-active"><a href="">Map</a></li>
+                <li class="nav-item"><a href="./landing.html">About</a></li>
+                <li class="nav-item nav-list-item-active">
+                  <a href="">Map</a>
+                </li>
                 <li class="nav-item"><a href="./zoos-page1.html">Zoos</a></li>
-                <li class="nav-item"><a href="./error404.html">Contact us</a></li>
-                <li class="nav-item"><a href="">Design</a></li>
+                <li class="nav-item">
+                  <a href="./error404.html">Contact us</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="https://www.figma.com/file/aBvQMVmI665DtzprpiniuH/online-zoo?node-id=0%3A1"
+                    >Design</a
+                  >
+                </li>
               </ul>
             </nav>
           </header>
@@ -37,7 +46,9 @@
                   <figcaption class="map-icon-cap">
                     eagle
                     <span class="tooltip-text-eagle"
-                      ><img src="../assets/icons/tip-eagle.png" alt="Eagle tooltip"
+                      ><img
+                        src="../assets/icons/tip-eagle.png"
+                        alt="Eagle tooltip"
                     /></span>
                   </figcaption>
 
@@ -87,7 +98,9 @@
                   /></a>
                   <figcaption class="map-icon-cap">
                     panda bear<span class="tooltip-text-panda"
-                      ><img src="../assets/icons/tip-panda.png" alt="Panda tooltip"
+                      ><img
+                        src="../assets/icons/tip-panda.png"
+                        alt="Panda tooltip"
                     /></span>
                   </figcaption>
                 </figure>
@@ -101,26 +114,117 @@
         </div>
       </div>
       <footer class="footer">
-        <div class="footer-color">
-          <div class="footer-logo"><img src="../images/logo.png" alt="" /></div>
+        <div class="map-footer-wrapper">
+          <img
+            class="map-footer-back"
+            src="../assets/images/vector-footer.png"
+            alt="bg-vector"
+          />
           <div class="footer-nav">
-            <ul class="footer-nav-list">
-              <li>
-                <button class="donate">Donate for volunteers</button>
-                <a href="">About</a>
-                <a href="">Map</a>
-                <a href="">Contact us</a>
-                <a href="">Feedback</a>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <p>Copyright ©RSSchool and ©Yem Digital 2020 - 2021</p>
-                <p>Grigoreva Margarita</p>
-              </li>
-            </ul>
+            <div class="footer-div1">
+              <div class="footer-logo">
+                <a class="footer-nav-link" href="./landing.html">
+                  <img
+                    class="footer-logotype"
+                    src="../assets/icons/logo.png"
+                    alt="logo"
+                  />
+                </a>
+              </div>
+              <button class="btn-feedback feedback-fonts">
+                Donate for volunteers
+              </button>
+            </div>
+            <div class="footer-nav-lists">
+              <div class="map-footer-nav-list1">
+                <ul class="nav-ul-list">
+                  <li class="nav-li-list">
+                    <a class="item-text-fonts" href="./landing.html">About</a>
+                  </li>
+                  <li class="nav-li-list">
+                    <a class="item-text-fonts" href="./map.html">Мар</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-nav-list2">
+                <ul class="nav-ul-list">
+                  <li class="nav-li-list">
+                    <a class="item-text-fonts" href="./error404.html"
+                      >Contact us</a
+                    >
+                  </li>
+                  <li class="nav-li-list">
+                    <a class="item-text-fonts" href="">Feedback</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="map-nav-list-soc">
+              <ul class="nav-list-soc-ul">
+                <li class="nav-list-item">
+                  <a href=""
+                    ><img
+                      class="nav-list-item-icon"
+                      src="../assets/icons/Insta.png"
+                      alt="instagram"
+                  /></a>
+                </li>
+                <li class="nav-list-item">
+                  <a href=""
+                    ><img
+                      class="nav-list-item-icon"
+                      src="../assets/icons/Facebook.png"
+                      alt="facebook"
+                  /></a>
+                </li>
+                <li class="nav-list-item">
+                  <a href=""
+                    ><img
+                      class="nav-list-item-icon"
+                      src="../assets/icons/Twitter.png"
+                      alt="twitter"
+                  /></a>
+                </li>
+                <li class="nav-list-item">
+                  <a href=""
+                    ><img
+                      class="nav-list-item-icon"
+                      src="../assets/icons/youtube.png"
+                      alt="youtube"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-nav2">
+          <div class="nav2-lists">
+            <div class="nav2-list1">
+              <div class="rsschool-logotype">
+                <span class="map-tooltip-rsschool">Rolling Scopes School</span>
+                <img
+                  class="rsschool"
+                  src="../assets/icons/rsschool-logo.png"
+                  alt="rsschool"
+                />
+              </div>
+              <div class="yem-digital-logotype">
+                <span class="map-tooltip-yem-digital">Yem Digital</span>
+                <img
+                  class="yem-digital"
+                  src="../assets/icons/Group 2.png"
+                  alt="yem digital"
+                />
+              </div>
+            </div>
+            <div class="copyright">
+              <p class="copyright-fonts">
+                Copyright ©RSSchool and ©Yem Digital 2020 - 2021
+              </p>
+            </div>
+            <div class="author">
+              <p class="author-fonts">Grigoreva Margarita</p>
+            </div>
           </div>
         </div>
       </footer>
